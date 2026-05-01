@@ -13,4 +13,4 @@ Users can browse products, add them to a cart, and complete payments using Strip
 - Order creation and invoice generation (PDF)
 - Image upload with Multer
 
----
+--
