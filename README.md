@@ -1,16 +1,19 @@
-# Shop App (Node.js + Express)
+# Shop App API (Node.js + Express + Prisma)
 
-A simple e-commerce web application built with **Node.js**, **Express**, **MongoDB**, and **Stripe**.  
-Users can browse products, add them to a cart, and complete payments using Stripe Checkout.
-
----
+API-first e-commerce backend built with **Node.js**, **Express**, **PostgreSQL**, **Prisma**, and **Stripe**.
 
 ## Features
 
-- User authentication (signup, login, logout)
-- Shopping cart
-- Stripe Checkout (test mode)
-- Order creation and invoice generation (PDF)
-- Image upload with Multer
+- JWT authentication with refresh tokens
+- USER and ADMIN roles
+- Product, cart, order, payment, and inventory APIs
+- Stripe Checkout and webhook handling
+- Prisma/PostgreSQL persistence
 
---
+## Useful Commands
+
+- `npm run dev`
+- `npm start`
+- `npm run prisma:generate`
+- `npm run prisma:migrate`
+- `npm run prisma:studio`

@@ -1,0 +1,13 @@
+const toPublicUser = (user) => {
+  if (!user) return null;
+
+  return {
+    id: user.id,
+    email: user.email,
+    role: user.role,
+    createdAt: user.createdAt,
+    updatedAt: user.updatedAt,
+  };
+};
+
+module.exports = { toPublicUser };
